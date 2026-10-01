@@ -1,0 +1,15 @@
+---
+title: "Week 5A: Airline Delays"
+author: "Renee Watson"
+date: "2026-09-27"
+output: html_document
+---
+
+# Airline Delays 
+
+## Approach 
+
+In this assignment, I will analyze arrival performance for Alaska Airlines and AM West across five destinations: Los Angeles, Phoenix, San Diego, San Francisco, and Seattle. The original dataset reports the number of flights that arrived on time and the number that were delayed for each airline and destination. My plan is to first recreate the source data in a CSV file using the same wide format shown in the original table. I will then import the data into R and use functions from dplyr and tidyr to clean and transform the dataset. After filling the missing data, I will transform the data from wide to long format. 
+
+Finally, I will calculate and compare delay percentages for the two airlines overall and across each of the five destinations. This will allow me to determine whether the overall airline comparison tells the same story as the city-by-city comparison. 
+
